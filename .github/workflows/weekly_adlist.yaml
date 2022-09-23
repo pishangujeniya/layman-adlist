@@ -1,7 +1,13 @@
 name: Updates Adlists every Sunday
+
 on:
-  schedule:
-  - cron: "0 12 * * SUN"
+  push:
+    branches:
+      - main
+
+# on:
+#   schedule:
+#   - cron: "0 12 * * SUN"
 
 jobs:
   stale:
