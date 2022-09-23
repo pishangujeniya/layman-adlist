@@ -23,3 +23,4 @@ jobs:
       run: |
           ./download_adlists_hosts.sh
           pwd
+          ls -la
