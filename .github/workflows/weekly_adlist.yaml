@@ -18,3 +18,5 @@ jobs:
     - name: Providing Execution permissions
       shell: bash
       run:  chmod +x ./download_adlists_hosts.sh
+    - name: Run download_adlists_hosts.sh
+      run: ./download_adlists_hosts.sh
