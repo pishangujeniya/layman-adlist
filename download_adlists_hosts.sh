@@ -1,4 +1,5 @@
 DownloadDirPath="./downloads/"
+mkdir ${DownloadDirPath}
 echo "Set Download Directory as $(pwd)/${DownloadDirPath}"
 wget https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts -o ${DownloadDirPath}steven_black_hosts.txt
 wget https://block.energized.pro/ultimate/formats/hosts.txt -o ${DownloadDirPath}energized_ultimate_hosts.txt
