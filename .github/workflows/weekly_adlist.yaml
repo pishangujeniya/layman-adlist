@@ -1,0 +1,14 @@
+name: Updates Adlists every Sunday
+on:
+  schedule:
+  - cron: "0 12 * * SUN"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Providing Execution permissions
+      shell: bash
+      run:  chmod +x ./download_adlists_hosts.sh
