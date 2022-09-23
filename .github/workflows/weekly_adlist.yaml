@@ -19,6 +19,7 @@ jobs:
       shell: bash
       run:  chmod +x ./download_adlists_hosts.sh
     - name: Run download_adlists_hosts.sh
+      shell: bash
       run: |
-      ./download_adlists_hosts.sh
-      pwd
+          ./download_adlists_hosts.sh
+          pwd
