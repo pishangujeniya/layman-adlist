@@ -33,5 +33,5 @@ jobs:
     - name: Generate Layman Adlists
       shell: bash
       run: |
-        python ./layman_adlists_hosts_generator.py
+        python ./layman_adlists_hosts_generator.py -d $(pwd)/bin/hosts -o $(pwd)/bin/layman_adlists_hosts.txt
         ls -lh ./bin/
