@@ -57,7 +57,7 @@ hosts_lines.append('\n')
 hosts_lines.append('\n')
 
 for i in hosts_domains_list:
-    hosts_lines.append('\n127.0.0.1 '+i)
+    hosts_lines.append('\n0.0.0.0 '+i)
 hosts_lines.append('\n')
 
 # Writing Hosts file
