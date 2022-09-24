@@ -13,6 +13,9 @@ jobs:
   Generate Layman Adlist:
     runs-on: ubuntu-latest
     steps:
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date)"
     - name: Checkout
       uses: actions/checkout@v3
     - name: Providing Execution permissions
@@ -40,6 +43,7 @@ jobs:
         cp -i $(pwd)/bin/layman_adlist_hosts.txt $(pwd)/layman_adlist_hosts.txt
     - name: Setup Git User
       uses: fregante/setup-git-user@v1
+    - name: git add
       run: |
         git add .
     - name: Commit Latest
@@ -47,7 +51,7 @@ jobs:
       with:
         # Optional. Commit message for the created commit.
         # Defaults to "Apply automatic changes"
-        commit_message: Generated Layman Adlist
+        commit_message: Generated Layman Adlist on ${{ steps.date.outputs.date }}
 
         # Optional. Local and remote branch name where commit is going to be pushed
         #  to. Defaults to the current branch.
