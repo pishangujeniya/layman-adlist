@@ -10,7 +10,7 @@ on:
 #   - cron: "0 12 * * SUN"
 
 jobs:
-  download_adlists:
+  Generate Layman Adlist:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -38,6 +38,10 @@ jobs:
       shell: bash
       run: |
         cp -i $(pwd)/bin/layman_adlist_hosts.txt $(pwd)/layman_adlist_hosts.txt
+    - name: Setup Git User
+      uses: fregante/setup-git-user@v1
+      run: |
+        git add .
     - name: Commit Latest
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
