@@ -1,11 +1,24 @@
-<h1>🚫Layman Adlist</h1>
+<p align="center">
+  <img width="400" height="400" src="./images/layman_adlist_banner.jpg">
+</p>
+<br>
 
+<h1 align="center">🚫Layman Adlist</h1>
+
+<p align="center">
+  <strong>Blocks Ads, Spyware, & Malware</strong>
+</p>
+
+![Website](https://img.shields.io/website?url=https://pishangujeniya.github.io/layman-adlist/)
+![GitHub issues](https://img.shields.io/github/issues/pishangujeniya/layman-adlist)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/pishangujeniya/layman-adlist)
 [![license](https://img.shields.io/github/license/pishangujeniya/layman-adlist.svg)](https://github.com/pishangujeniya/layman-adlist/blob/main/LICENSE)
 [![contributors](https://img.shields.io/github/contributors/pishangujeniya/layman-adlist.svg)](https://github.com/pishangujeniya/layman-adlist/graphs/contributors)
 [![last commit](https://img.shields.io/github/last-commit/pishangujeniya/layman-adlist.svg)](https://github.com/pishangujeniya/layman-adlist/commits/main)
 [![commit activity](https://img.shields.io/github/commit-activity/y/pishangujeniya/layman-adlist.svg)](https://github.com/pishangujeniya/layman-adlist/commits/main)
 
-Layman Adlist Hosts File Link : [https://raw.githubusercontent.com/pishangujeniya/layman-adlist/main/layman_adlist_hosts.txt](https://raw.githubusercontent.com/pishangujeniya/layman-adlist/main/layman_adlist_hosts.txt)
+
+[![Layman Adlist Hosts](https://img.shields.io/badge/Layman%20Adlist%20Hosts-Download-green)](https://raw.githubusercontent.com/pishangujeniya/layman-adlist/main/layman_adlist_hosts.txt)
 
 ##  Features
 
@@ -80,6 +93,8 @@ Maintaining a quality blocking project takes a lot of time. We fight for our use
 
 This donation is just as a tip to us. Your support will help us keep the project running and provide you quality service.
 - [PayPal](https://paypal.me/Pishang)
+
+<a href="https://paypal.me/Pishang"><img src="./images/donate_9218.jpg"></a>
 	
 
 ##  Disclaimer
