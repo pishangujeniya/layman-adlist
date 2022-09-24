@@ -5,6 +5,8 @@
 [![last commit](https://img.shields.io/github/last-commit/pishangujeniya/layman-adlist.svg)](https://github.com/pishangujeniya/layman-adlist/commits/main)
 [![commit activity](https://img.shields.io/github/commit-activity/y/pishangujeniya/layman-adlist.svg)](https://github.com/pishangujeniya/layman-adlist/commits/main)
 
+Layman Adlist Hosts File Link : [https://raw.githubusercontent.com/pishangujeniya/layman-adlist/main/layman_adlist_hosts.txt](https://raw.githubusercontent.com/pishangujeniya/layman-adlist/main/layman_adlist_hosts.txt)
+
 ##  Features
 
 - **unique domains:** Every domain in the hosts file is unique.
