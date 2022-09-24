@@ -38,7 +38,7 @@ jobs:
     - name: Copy new Layman adlist file
       shell: bash
       run: |
-        cp -i $(pwd)/bin/layman_adlist_hosts.txt $(pwd)/layman_adlist_hosts.txt
+        cp $(pwd)/bin/layman_adlist_hosts.txt $(pwd)/layman_adlist_hosts.txt
     - name: Setup Git User
       uses: fregante/setup-git-user@v1
     - name: git add
