@@ -1,13 +1,13 @@
 name: Generates Adlists every Sunday
 
-on:
-  push:
-    branches:
-      - main
-
 # on:
-#   schedule:
-#   - cron: "0 12 * * SUN"
+#   push:
+#     branches:
+#       - main
+
+on:
+  schedule:
+  - cron: "10 08 * * *"
 
 jobs:
   generate_layman_adlist:
