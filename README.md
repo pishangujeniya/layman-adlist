@@ -57,18 +57,18 @@ running on the local PC.
 
 ## Sources
 This repository is hosts file aggregator containing hosts scraped and unified into single host file by removing duplicates.
- 1. [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
- 2. [EnergizedProtection](https://github.com/EnergizedProtection/block/tree/master/ultimate)
- 3. [adaway](https://adaway.org/)
- 4. [GoodbyeAds](https://github.com/jerryn70/GoodbyeAds)
- 5. [GoodbyeAds YouTube Adblock](https://github.com/jerryn70/GoodbyeAds/tree/master/Extension)
- 6. [GoodbyeAds Xiaomi AdBlock](https://github.com/jerryn70/GoodbyeAds/tree/master/Extension)
- 7. [GoodbyeAds Samsung Adblock](https://github.com/jerryn70/GoodbyeAds/tree/master/Extension)
- 8. [GoodbyeAds Spotify AdBlock](https://github.com/jerryn70/GoodbyeAds/tree/master/Extension)
- 9. [oisd](https://oisd.nl/)
- 10. [Developer Dan - AMP Hosts](https://www.github.developerdan.com/hosts/) 
+ 1. [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
+ 2. [EnergizedProtection - Ultimate](https://block.energized.pro/ultimate/formats/hosts.txt)
+ 3. [adaway](https://adaway.org/hosts.txt)
+ 4. [GoodbyeAds](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt)
+ 5. [GoodbyeAds YouTube Adblock](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt)
+ 6. [GoodbyeAds Xiaomi AdBlock](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt)
+ 7. [GoodbyeAds Samsung Adblock](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt)
+ 8. [GoodbyeAds Spotify AdBlock](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt)
+ 9. [oisd](https://dbl.oisd.nl/)
+ 10. [Developer Dan - AMP Hosts](https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt) 
  11. [Developer Dan - Ads and Tracking](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt)
- 12. [The Quantum Ad-List](https://gitlab.com/The_Quantum_Alpha/the-quantum-ad-list)
+ 12. [The Quantum Ad-List](https://gitlab.com/Dev-i-l/the-quantum-ad-list/-/raw/master/For%20hosts%20file/The_Quantum_Ad-List.txt?inline=true)
 
 ## How can I contribute hosts records?
 
