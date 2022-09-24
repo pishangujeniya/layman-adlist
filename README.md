@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" height="400" src="./images/layman_adlist_banner.jpg">
+  <img src="./images/layman_adlist_banner.jpg">
 </p>
 <br>
 
