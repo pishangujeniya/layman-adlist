@@ -1,4 +1,4 @@
-name: Updates Adlists every Sunday
+name: Generates Adlists every Sunday
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 #   - cron: "0 12 * * SUN"
 
 jobs:
-  Generate Layman Adlist:
+  generate_layman_adlist:
     runs-on: ubuntu-latest
     steps:
     - name: Get current date
