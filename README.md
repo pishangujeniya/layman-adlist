@@ -1,2 +1,2 @@
 # layman-adlist
- Layman' adlist hosts
+ Layman's adlist hosts
