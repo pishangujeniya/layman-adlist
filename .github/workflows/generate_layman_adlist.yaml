@@ -1,11 +1,11 @@
-name: Generates Layman Adlist every Sunday
+name: Generates Layman Adlist every Month
 
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: '00 12 * * SUN'
+    - cron: '0 0 1 * *'
 
 jobs:
   generate_layman_adlist:
